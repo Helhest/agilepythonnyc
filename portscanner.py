@@ -51,7 +51,7 @@ try:
         else: 
             print("[red] [!!]  Port  {} is closed [/red]".format(port))
         s.close()
-    print(openports)
+        print("\nThe open ports of",target,"are:",openports)
 
 
 
